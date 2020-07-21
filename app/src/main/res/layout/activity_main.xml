@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@color/backgroundColor"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULATE YOUR AGE"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="4dp"/>
+
+    <Button
+            android:id="@+id/selectDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELECT DATE"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#FFFFFF"
+            android:textColor="#929292"/>
+
+    <TextView
+            android:id="@+id/selectedDateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#844046"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGrayTextColor"
+            android:text="Selected Date"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:id="@+id/ageInDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#844046"
+            android:layout_marginTop="16dp"
+            android:textSize="33sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGrayTextColor"
+            android:text="Age in days"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:id="@+id/ageInHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#844046"
+            android:layout_marginTop="16dp"
+            android:textSize="33sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGrayTextColor"
+            android:text="Age in hours"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:id="@+id/ageInMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#844046"
+            android:layout_marginTop="16dp"
+            android:textSize="33sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightGrayTextColor"
+            android:text="Age in minutes"
+            android:textSize="18sp"/>
+
+</LinearLayout>
